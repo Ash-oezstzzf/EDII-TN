@@ -1,0 +1,28 @@
+REQUIREMENTS FOR TASK ASSIGNMENT PROJECT FOR EDII TN
+
+
+1.Split hierarchy
+	a)Super admin
+	b)Admin
+	c)Task Performer
+2.Assign tasks
+	
+	Super user can assign task to both admin and task performer
+	Admins can only assign task to their department task performers but can request to Super admin to assign task to other department
+
+	Flow of request is : Admin dept(A) --> Super Admin -->Admin dept(B)-->Task performer dept(B)
+
+	Inter departmental task assignment is restricted and only Super admin has access to assign tasks to all departments
+	
+3.View assigned task
+
+	Super admin can view every department's admin and task performers deadline and pending task 
+
+4.Search menu
+
+	Categories
+		1.State
+		2.Department
+		3.Authority Wise
+		4.Name wise
+		5.ID wise
