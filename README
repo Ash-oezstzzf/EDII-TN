@@ -26,3 +26,12 @@ REQUIREMENTS FOR TASK ASSIGNMENT PROJECT FOR EDII TN
 		3.Authority Wise
 		4.Name wise
 		5.ID wise
+
+Must contain filters and a select all option 
+
+Login must contain sign in and register and forgot password options
+each leading to a different page 
+and based on what the username and password is, it must redirect the user according to their role in the organization
+ranking from SuperUser to Admin to User
+
+Dashboard is to be added
